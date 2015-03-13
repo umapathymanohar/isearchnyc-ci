@@ -6,7 +6,7 @@
  *
  * @package		CodeIgniter
  * @author		ExpressionEngine Dev Team
- * @copyright	Copyright (c) 2008 - 2014, EllisLab, Inc.
+ * @copyright	Copyright (c) 2008 - 2011, EllisLab, Inc.
  * @license		http://codeigniter.com/user_guide/license.html
  * @link		http://codeigniter.com
  * @since		Version 1.0
@@ -254,9 +254,7 @@ if ( ! function_exists('get_config'))
 			}
 		}
 
-		// return $_config[0] =& $config;
-		$_config[0] =& $config;
-		return $_config[0];
+		return $_config[0] =& $config;
 	}
 }
 
